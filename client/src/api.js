@@ -1,5 +1,6 @@
 // src/api.js
-export const API_URL = import.meta.env.VITE_API_URL;
+export const API_URL = import.meta.env.VITE_API_URL=http://localhost:5000
+;
 
 // helper for fetch calls
 export async function fetchFromAPI(endpoint, options = {}) {
